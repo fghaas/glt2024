@@ -2,15 +2,15 @@
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
 
-    width: "100%",
-    height: "100%",
-
     controls: false,
 
     progress: true,
     history: true,
     center: true,
     showNotes: false,
+
+    pdfMaxPagesPerSlide: 1,
+    pdfSeparateFragments: false,
 
     transition: 'fade',
 
