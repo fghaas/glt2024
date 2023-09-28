@@ -7,7 +7,7 @@ Reveal.initialize({
     progress: true,
     history: true,
     center: true,
-    showNotes: false,
+    showNotes: true,
 
     pdfMaxPagesPerSlide: 1,
     pdfSeparateFragments: false,
