@@ -15,7 +15,7 @@ Dann brauchen wir noch Strom, für den Antrieb der Heizungspumpe und des Kompres
 Der Witz an der Wärmepumpe ist der: der Großteil der Energie für die benötigte Wärme im Haus kommt aus der Wärme der Umgebungsluft.
 Nur ungefähr ein Drittel müssen wir mit dem Strom für den Antrieb der beweglichen Teile (Kompressor, Pumpe) zuführen.
 
-Das heißt: für ca 3 kWh Wärme brauchen wir nur 1 kWh Strom (so ungefähr, im Schnitt, übers Jahr --- je wärmer es draußen ist, desto effizienter ist die Wärmepumpe).
+Das heißt: für ca 3 kWh Wärme brauchen wir nur 1 kWh Strom (so ungefähr, im Schnitt, übers Jahr — je wärmer es draußen ist, desto effizienter ist die Wärmepumpe).
 Damit produzieren wir mit der Wärmepumpe nicht nur kein Treibhausgas, sondern brauchen auch viel weniger Energie als beim Heizen mit Gas.
 
 Luft-Wasser-Wärmepumpen gibt es in 2 Bauarten:
@@ -42,6 +42,6 @@ Bildquelle: <https://commons.wikimedia.org/wiki/File:WP-Splitanlage.png>, Rainer
 
 Unsere Wärmepumpe ist ein Monoblock-Gerät.
 
-Und die sorgt jetzt schon seit einem Jahr dafür, dass es bei uns im Winter warm und im Sommer auch kühl ist --- denn kühlen kann man mit dem Ding auch.
+Und die sorgt jetzt schon seit einem Jahr dafür, dass es bei uns im Winter warm und im Sommer auch kühl ist — denn kühlen kann man mit dem Ding auch.
 
 Bildquelle: <https://commons.wikimedia.org/wiki/File:WP_Monoblock.png>, Rainer Sielker ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de))

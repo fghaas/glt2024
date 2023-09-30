@@ -26,11 +26,11 @@ Noch eine Besonderheit: obwohl sich das Haus in Niederösterreich über 20km von
 Das ist in einigen Gemeinden der Thermenregion so.
 Es bedeutet unter anderem auch, dass wir keine Möglichkeit haben, zu einem Fernwärmeanschluss zu kommen.
 
-2022 haben wir dann --- u.a. motiviert durch steigende Gaspreise und verfügbare Förderungen --- die Umrüstung auf eine Wärmepumpe in Angriff genommen.
+2022 haben wir dann — u.a. motiviert durch steigende Gaspreise und verfügbare Förderungen — die Umrüstung auf eine Wärmepumpe in Angriff genommen.
 Die Installation einer Solaranlage hatten wir da schon im Hinterkopf, aber noch nicht konkret geplant, das wollten wir innerhalb der folgenden 2 Jahre machen.
 
 Den Winter 2022/23 und Frühjahr 2023 haben wir diese Wärmepumpe also ausschließlich mit Strom aus dem Netz betrieben.
 
-Und in der Zwischenzeit --- im Jänner 2023 --- habe ich begonnen, mich mit Energiemessung und Automation mit Home Assistant zu beschäftigen.
+Und in der Zwischenzeit — im Jänner 2023 — habe ich begonnen, mich mit Energiemessung und Automation mit Home Assistant zu beschäftigen.
 
 Und im Sommer 2023 haben wir dann noch das Haus mit einer Photovoltaik-Anlage ausgerüstet.

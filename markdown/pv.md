@@ -15,7 +15,7 @@ Und weil ein Solarpaneel ganz viele Solarzellen enthält, die alle in Serie gesc
 Aber mit Gleichstrom fangen wir nix an, weil ja fast alle Geräte im Haus mit Wechselstrom funktionieren (auch die Wärmepumpe!).
 Also brauchen wir einen **Wechselrichter,** der uns aus dem Gleichstrom Wechselstrom macht.
 
-Damit können wir alle elektrischen Geräte in unserem Haus betreiben --- aber nur wenn die Sonne scheint.
+Damit können wir alle elektrischen Geräte in unserem Haus betreiben — aber nur wenn die Sonne scheint.
 
 
 <!-- .slide: data-background-image="images/speicher.jpg" data-background-size="contain" -->
@@ -30,7 +30,7 @@ Der ist eigentlich nichts anderes als eine Batterie, allerdings eine ziemlich gr
 ## Netzbezug und Einspeisung <!-- .element class="hidden" -->
 
 <!-- Note -->
-Manchmal wird die Batterie auch leer --- wenn mal länger nicht die Sonne scheint ---, und wenn wir dann noch weiter Strom brauchen, dann ziehen wir den einfach aus dem Stromnetz.
+Manchmal wird die Batterie auch leer — wenn mal länger nicht die Sonne scheint —, und wenn wir dann noch weiter Strom brauchen, dann ziehen wir den einfach aus dem Stromnetz.
 Dazu haben wir wie früher eine **Stromleitung** mit einem Stromzähler (einem Smart Meter).
 
 Und dann kann es uns natürlich auch passieren, dass wir alle elektrischen Geräte im Haus betreiben können *und* unsere Batterie komplett voll geladen haben und es scheint noch *immer* die Sonne, dann speisen wir ins Stromnetz ein.
