@@ -88,34 +88,55 @@ Wie betreibst du Home Assistant?
 Genau so wie auch Nextcloud, Grocy, und anderes Container-Zeug.
 
 * Raspberry Pi 4 mit Ubuntu Jammy
-* Rootless Podman mit `docker-compose`
+* Rootless Podman mit `podman-compose`
 * Offizielles [Docker-Image  für Home Assistant](https://hub.docker.com/r/homeassistant/home-assistant)
 * `loginctl --enable-linger homeassistant`
-* `systemctl --user start docker-compose`
+* `systemctl --user start podman-compose`
+
+
+<!-- .slide: data-timing="1" -->
+## Home Assistant docker-compose.yaml <!-- .element class="hidden" -->
+
+```yaml
+version: 3
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:2024.3.1"
+    volumes:
+      - /home/homeassistant/.config/homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    ports:
+      - "8123:8123"
+    restart: always
+    environment : {}
+```
 
 
 <!-- .slide: data-timing="1" -->
 ## Home Assistant systemd unit <!-- .element class="hidden" -->
 
-```yaml
+```ini
 [Unit]
-Description=Podman via docker-compose
+Description=Podman via podman-compose
 Wants=network-online.target
 After=network-online.target
 RequiresMountsFor=%t/containers
 
 [Service]
 Environment=PODMAN_SYSTEMD_UNIT=%n
-Environment=DOCKER_HOST=unix:///%t/podman/podman.sock
-Restart=on-failure
-RemainAfterExit=true
+Environment=PODMAN_USERNS=keep-id
+Restart=always
 TimeoutStartSec=60
 TimeoutStopSec=60
-ExecStart=/usr/bin/docker-compose up -d --remove-orphans
-ExecStop=/usr/bin/docker-compose stop
-Type=oneshot
+ExecStart=/usr/bin/podman-compose up --remove-orphans
+ExecStop=/usr/bin/podman-compose stop
+Type=simple
 WorkingDirectory=%h
 
 [Install]
 WantedBy=default.target
 ```
+
+<https://xahteiwi.eu/resources/hints-and-kinks/rootless-podman-docker-compose/>
