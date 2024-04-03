@@ -8,6 +8,23 @@ Es folgen Backup-Slides für zu erwartende Fragen.
 
 
 <!-- .slide: data-timing="1" --> 
+## Tarife <!-- .element class="hidden" -->
+Wie sieht das mit dem Einspeisetarif aus?
+
+Ist das nicht total unfair?
+
+<!-- Note -->
+In Österreich gibt es keine nationale Saldierungsregelung ("Einspeisen dreht Stromzähler zurück") wie in den Niederlanden, es ist also nicht garantiert, dass der Abnahme- gleich dem Einspeisepreis ist.
+
+In Wien allerdings passt Wien Energie *beide* Preise zweimal jährlich an.
+
+Wir haben ab Ende August um €0,29/kWh eingespeist, als der Abnahmestrompreis noch bei €0,28/kWh lag.
+Mittlerweile stehen wir bei €0,14/kWh und €0,13/kWh.
+
+Das kann aber in anderen Bundesländern und bei anderen Anbietern anders sein.
+
+
+<!-- .slide: data-timing="1" --> 
 ## Monoblock <!-- .element class="hidden" -->
 Warum eine Monoblock-Wärmepumpe?
 
