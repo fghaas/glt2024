@@ -7,17 +7,39 @@ Sie steht unter der Apache Software License und besteht aus einer Python-Codebas
 Über das Home Assistant Energy Dashboard hab ich ja schon einiges gesagt, jetzt mag ich noch ein bisschen was zu den Integrationen sagen, die wir so verwenden.
 
 
+<!-- .slide: data-background-image="images/heat-pump-dashboard.png" data-background-size="contain" -->
+## Wärmepumpe <!-- .element class="hidden" -->
+
+<!-- Note -->
+Da ist einerseits mal die Integration der Wärmepumpe.
+
+Praktischerweise unterstützt die [Modbus TCP](https://en.wikipedia.org/wiki/Modbus#Modbus_TCP) (allerdings muss man da lieb bitten, damit man diese Funktionalität auch aktiviert bekommt).
+
+Wenn das mal aktiviert ist, dann ist die Home Assistant-Integration fast trivial ...
+
+
+<!-- .slide: data-background-image="images/ha-modbus.png" data-background-size="contain" -->
+## Modbus <!-- .element class="hidden" -->
+
+<!-- Note -->
+... denn dafür gibt es eine fertige Modbus-Integration.
+
+Bei der Einbindung des Wechselrichters wird es schon etwas komplexer:
+
+
 <!-- .slide: data-background-image="images/ha-growatt.png" data-background-size="contain" -->
 ## Growatt <!-- .element class="hidden" -->
 
 <!-- Note -->
 Integration `growatt_server`
 
+Damit habe ich angefangen:
+
 * Liefert alle möglichen Daten zum Wechselrichter und zum Stromspeicher. Über 30 Einzelwerte.
 * Greift ein Cloud-basiertes Service meines Wechselrichter-Herstellers über ein Web-API ab.
-* Noch nicht so ganz zufrieden, weil API immer mal wieder instabil oder auch über Stunden oder Tage unerreichbar ist.
-* Ist auch irgendwie ein bisschen doof: Daten gehen vom Wechselrichter um die Welt auf irgendeinen Server, und werden von dort von einem Raspberry Pi ausgewertet, der keine 10m vom Wechselrichter entfernt steht.
-* Da muss also noch eine Alternative her:
+* War nicht ganz so toll, weil API immer mal wieder instabil oder auch über Stunden oder Tage unerreichbar ist.
+* War auch irgendwie ein bisschen doof: Daten gehen vom Wechselrichter um die Welt auf irgendeinen Server, und werden von dort von einem Raspberry Pi ausgewertet, der keine 10m vom Wechselrichter entfernt steht.
+* Da musste also eine Alternative her:
 
 Screenshot: <https://www.home-assistant.io/integrations/growatt_server/>
 
@@ -54,6 +76,16 @@ Screenshot: <https://github.com/otti/Growatt_ShineWiFi-S/>
 * Shine Wifi liefert Daten an Grott, Grott schickt sie dann sowohl an Home Assistant als auch (optional) an den Growatt-Server weiter.
 
 Screenshot: <https://github.com/johanmeijer/grott/wiki/Rerouting-Growatt-Wifi-TCPIP-data-via-your-Grott-Server>
+
+
+<!-- .slide: data-background-image="images/github-homeassistant-grott.png" data-background-size="contain" -->
+### Home Assistant Grott <!-- .element class="hidden" -->
+
+<!-- Note -->
+* Dafür gibt's zwischenzeitlich auch schon eine fertige Home Assistant-Integration, und damit läuft das alles ganz großartig.
+* Im Augenblick fahre ich Grott noch im Proxy-Modus, also Datenlogger zu Grott und von dort zu HomeAssistant (via MQTT) *und* in die Cloud, aber irgendwann werde ich den Cloud-Upload wohl ausschalten.
+
+Screenshot: <https://github.com/muppet3000/homeassistant-grott>
 
 
 <!-- .slide: data-background-image="images/ha-forecastsolar.png" data-background-size="contain" -->

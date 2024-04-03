@@ -6,7 +6,7 @@
 
 Florian Haas | [@xahteiwi@mastodon.social](https://mastodon.social/@xahteiwi)
 
-LinuxDay 2023 | 2023-09-30
+Grazer Linuxtage | 2024-04-06
 
 <!-- Note -->
 Ein Erfahrungsbericht aus einem einjährigen Lernprozess über Energie, Sonne, und Home Assistant.
