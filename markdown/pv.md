@@ -93,3 +93,32 @@ Abends ab 20:00 dann Verbrauch aus der Batterie, für Warmwasseraufbereitung der
 Und so sieht ein Tag mit abwechselnd Wolken und Regen aus. (3. September)
 
 Mit 7-8 wolkigen Stunden kriegen wir die morgens fast leer gewesene Batterie bis zum Nachmittag auch voll, speisen dann allerdings kaum ein.
+
+
+<!-- .slide: data-background-image="images/energy-dashboard-202403.png" data-background-size="contain" -->
+## Monatsproduktion März <!-- .element class="hidden" -->
+
+<!-- Note -->
+Hier noch eine Übersicht über Energieverbrauch und -Erzeugung im März.
+
+Das ist ganz interessant, weil hier alles ganz schnell kippt:
+zu Monatsbeginn hat die Wärmepumpe noch ordentlich zu tun, *und* es scheint weniger Sonne; am Monatsende heizt man kaum mehr und die Sonne ist da.
+
+Führt dazu, dass man Anfang März noch ordentlich Strom zukauft, und am Monatsende bereits wieder Nettoeinspeiser ist.
+
+
+<!-- .slide: data-background-image="images/per-module-peaks.png" data-background-size="contain" -->
+## Produktionsspitzen März <!-- .element class="hidden" -->
+
+<!-- Note -->
+Auch das erwartet man so vielleicht nicht, das ist die Stromproduktion dividiert durch die Anzahl der Module, also Watt-pro-Modul.
+
+Fällt jemandem was auf?
+
+Die Spitzenwerte liegen hier deutlich *über* den nominellen maximal 465 Watt pro Modul.
+
+Das liegt daran, dass die Module kalt sind.
+Bei PV-Modulen ist es umgekehrt wie bei der Wärmepumpe, und die Effizienz *steigt* bei kühlen Temperaturen (ca. 1% pro 3K Temperaturunterschied).
+Der Normwert bezieht sich auf 25°C.
+
+Hat es also um die 0°C, obwohl die Sonne kräftig scheint (und geht vielleicht auch noch Wind, der die Module effizient kühlt), dann können wir 8% mehr aus den Modulen rausholen.
