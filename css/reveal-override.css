@@ -3,7 +3,7 @@
    "white" theme.
 */
 body:before {
-  content: url(../images/qrcode.svg);
+  content: url(../images/cc_by-sa.svg);
   position: fixed;
   top: 2em;
   left: 2em;
