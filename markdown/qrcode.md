@@ -1,5 +1,2 @@
+<!-- .slide: data-background-image="images/qrcode.svg" data-background-size="contain" -->
 # QR code <!-- .element class="hidden" -->
-
-![fghaas.github.io/linuxday2023](images/qrcode.svg)
-
-<https://fghaas.github.io/linuxday2023>
