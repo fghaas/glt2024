@@ -63,12 +63,12 @@ Eine weitere Option ist ein Pulszähler.
 <!-- Note -->
 Oder man macht es über die Cloud.
 Das klappt natürlich nur, wenn der Versorger irgendein API zur Verfügung stellt, das man abgreifen kann.
-Und dann braucht man dafür eine Home Assistant-Integration.
+Und dann braucht man dafür eine Home Assistant-Integration.
 
 Von meinem Energieversorger (Wiener Netze) gibt es glücklicherweise beides:
 
 * Smartmeter Web.
-* Home Assistant-Integration [wnsm](https://github.com/DarwinsBuddy/WienerNetzeSmartmeter).
+* Home Assistant-Integration [wnsm](https://github.com/DarwinsBuddy/WienerNetzeSmartmeter).
 
 Screenshot: <https://smartmeter-web.wienernetze.at/>
 
@@ -78,7 +78,7 @@ Screenshot: <https://smartmeter-web.wienernetze.at/>
 
 <!-- Note -->
 So sah der tageweise Stromverbrauch im April 2023 aus.
-Noch ist da alles blau, so zeigt das Home Assistant Energy Dashboard nämlich Strom aus dem Netz an.
+Noch ist da alles blau, so zeigt das Home Assistant Energy Dashboard nämlich Strom aus dem Netz an.
 
 Gut zu erkennen: Heiztage (bis zu 50 kWh) und heizfreie Tage (15 kWh).
 

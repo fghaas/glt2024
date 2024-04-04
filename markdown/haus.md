@@ -31,9 +31,9 @@ Die Installation einer Solaranlage hatten wir da schon im Hinterkopf, aber noch 
 
 Den Winter 2022/23 und Frühjahr 2023 haben wir diese Wärmepumpe also ausschließlich mit Strom aus dem Netz betrieben.
 
-In der Zwischenzeit — im Jänner 2023 — habe ich begonnen, mich mit Energiemessung und Automation mit Home Assistant zu beschäftigen.
+In der Zwischenzeit — im Jänner 2023 — habe ich begonnen, mich mit Energiemessung und Automation mit Home Assistant zu beschäftigen.
 
 Und im Sommer 2023 haben wir dann noch das Haus mit einer Photovoltaik-Anlage ausgerüstet.
 
 Und an ungefähr diese Chronologie halte ich mich auch in diesem Vortrag:
-mit Wärmepumpe geht's los, dann Energiemessung mit Home Assistant, dann PV, um zum Schluss nochmal Home Assistant.
+mit Wärmepumpe geht's los, dann Energiemessung mit Home Assistant, dann PV, um zum Schluss nochmal Home Assistant.

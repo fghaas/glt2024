@@ -1,10 +1,10 @@
-# Automation mit Home Assistant
+# Automation mit Home Assistant
 
 <!-- Note -->
-Home Assistant ist eine Open-Source-Software zur Heimautomatisierung und Energieoptimierung.
+Home Assistant ist eine Open-Source-Software zur Heimautomatisierung und Energieoptimierung.
 Sie steht unter der Apache Software License und besteht aus einer Python-Codebase mit vielen (sehr vielen!) Integrationsmodulen für verschiedenste Dinge im und ums Haus.
 
-Über das Home Assistant Energy Dashboard hab ich ja schon einiges gesagt, jetzt mag ich noch ein bisschen was zu den Integrationen sagen, die wir so verwenden.
+Über das Home Assistant Energy Dashboard hab ich ja schon einiges gesagt, jetzt mag ich noch ein bisschen was zu den Integrationen sagen, die wir so verwenden.
 
 
 <!-- .slide: data-background-image="images/heat-pump-dashboard.png" data-background-size="contain" -->
@@ -15,7 +15,7 @@ Da ist einerseits mal die Integration der Wärmepumpe.
 
 Praktischerweise unterstützt die [Modbus TCP](https://en.wikipedia.org/wiki/Modbus#Modbus_TCP) (allerdings muss man da lieb bitten, damit man diese Funktionalität auch aktiviert bekommt).
 
-Wenn das mal aktiviert ist, dann ist die Home Assistant-Integration fast trivial ...
+Wenn das mal aktiviert ist, dann ist die Home Assistant-Integration fast trivial ...
 
 
 <!-- .slide: data-background-image="images/ha-modbus.png" data-background-size="contain" -->
@@ -63,7 +63,7 @@ Damit ergibt sich die
 
 * mögliche Alternative  1: [open source aftermarket Firmware für den Datenlogger](https://github.com/otti/Growatt_ShineWiFi-S/) (ESP32)
 
-Von da gehen die aktuellen Zustandsdaten dann [direkt via MQTT in Home Assistant](https://github.com/otti/Growatt_ShineWiFi-S/blob/master/Doc/MQTT.md).
+Von da gehen die aktuellen Zustandsdaten dann [direkt via MQTT in Home Assistant](https://github.com/otti/Growatt_ShineWiFi-S/blob/master/Doc/MQTT.md).
 
 Screenshot: <https://github.com/otti/Growatt_ShineWiFi-S/>
 
@@ -73,17 +73,17 @@ Screenshot: <https://github.com/otti/Growatt_ShineWiFi-S/>
 
 <!-- Note -->
 * Mögliche Alternative 2: [Grott](https://github.com/johanmeijer/grott), das ist mehr oder weniger ein Growatt-API-Proxy.
-* Shine Wifi liefert Daten an Grott, Grott schickt sie dann sowohl an Home Assistant als auch (optional) an den Growatt-Server weiter.
+* Shine Wifi liefert Daten an Grott, Grott schickt sie dann sowohl an Home Assistant als auch (optional) an den Growatt-Server weiter.
 
 Screenshot: <https://github.com/johanmeijer/grott/wiki/Rerouting-Growatt-Wifi-TCPIP-data-via-your-Grott-Server>
 
 
 <!-- .slide: data-background-image="images/github-homeassistant-grott.png" data-background-size="contain" -->
-### Home Assistant Grott <!-- .element class="hidden" -->
+### Home Assistant Grott <!-- .element class="hidden" -->
 
 <!-- Note -->
-* Dafür gibt's zwischenzeitlich auch schon eine fertige Home Assistant-Integration, und damit läuft das alles ganz großartig.
-* Im Augenblick fahre ich Grott noch im Proxy-Modus, also Datenlogger zu Grott und von dort zu HomeAssistant (via MQTT) *und* in die Cloud, aber irgendwann werde ich den Cloud-Upload wohl ausschalten.
+* Dafür gibt's zwischenzeitlich auch schon eine fertige Home Assistant-Integration, und damit läuft das alles ganz großartig.
+* Im Augenblick fahre ich Grott noch im Proxy-Modus, also Datenlogger zu Grott und von dort zu Home Assistant (via MQTT) *und* in die Cloud, aber irgendwann werde ich den Cloud-Upload wohl ausschalten.
 
 Screenshot: <https://github.com/muppet3000/homeassistant-grott>
 
@@ -108,7 +108,7 @@ Integration `shelly`
 
 * Liefert Verbrauchsdaten ins Energy Dashboard.
 * Ist außerdem für Automation als Schalter ansteuerbar.
-* Home Assistant-Integration macht auch Firmware-Updates.
+* Home Assistant-Integration macht auch Firmware-Updates.
 
 Screenshot: <https://www.home-assistant.io/integrations/shelly/>
 
@@ -125,7 +125,7 @@ Integration `wnsm`
 Screenshot: <https://github.com/DarwinsBuddy/WienerNetzeSmartmeter>
 
 
-## Home Assistant Automation, Anwendungsbeispiel <!-- .element class="hidden" -->
+## Home Assistant Automation, Anwendungsbeispiel <!-- .element class="hidden" -->
 
 "Schalte den Geschirrspüler und die Waschmaschine ein, sobald wir ausreichend Solarstrom produzieren.
 
@@ -145,10 +145,10 @@ Also: wir können diese beiden Geräte einfach gestaffelt einschalten, sobald di
 
 
 <!-- .slide: data-background-image="images/ha-trigger-on-pv.png" data-background-size="contain" -->
-## Home Assistant Automation, Anwendungsbeispiel (Code) <!-- .element class="hidden" -->
+## Home Assistant Automation, Anwendungsbeispiel (Code) <!-- .element class="hidden" -->
 
 <!-- Note -->
-So sieht das im Home Assistant-UI aus, und das ist die so erzeugte YAML-Konfiguration:
+So sieht das im Home Assistant-UI aus, und das ist die so erzeugte YAML-Konfiguration:
 
 ```yaml
 alias: Turn on dishwasher

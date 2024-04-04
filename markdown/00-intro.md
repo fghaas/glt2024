@@ -9,7 +9,7 @@ Florian Haas | [@xahteiwi@mastodon.social](https://mastodon.social/@xahteiwi)
 Grazer Linuxtage | 2024-04-06
 
 <!-- Note -->
-Ein Erfahrungsbericht aus einem einjährigen Lernprozess über Energie, Sonne, und Home Assistant.
+Ein Erfahrungsbericht aus einem einjährigen Lernprozess über Energie, Sonne, und Home Assistant.
 
 * Das hier ist kein Expertenvortrag, soll er auch gar nicht sein.
 * Er ist vielmehr ein persönlicher Erfahrungsbericht, der vielleicht anregt sich auch mit einem der Themen auseinanderzusetzen.
