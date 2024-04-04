@@ -55,6 +55,7 @@ Unsere PV-Anlage besteht aus 22 Solarmodulen, die jeweils *maximal* 465 Watt Lei
 Der Wechselrichter könnte noch etwa 50% mehr Kapazität liefern, wäre also noch durch zusätzliche Module ausbaufähig.
 
 Der Stromspeicher hat 9.2 kWh *nutzbare* Kapazität, kann aber maximal 5 kW Entladeleistung liefern.
+Auch die Ladeleistung ist begrenzt und liegt bei ca. 5,5kWh.
 
 
 <!-- .slide: data-background-image="images/energy-dashboard-202309.png" data-background-size="contain" -->
@@ -84,6 +85,17 @@ Am Vormittag Eigenverbrauch (Wäsche, Geschirr, Kochen) und aufladen der Batteri
 Nachmittags praktisch ausschließlich Einspeisung.
 
 Abends ab 20:00 dann Verbrauch aus der Batterie, für Warmwasseraufbereitung der Wärmepumpe.
+
+
+<!-- .slide: data-background-image="images/charge-max.png" data-background-size="contain" -->
+## Einspeisung beim Laden <!-- .element class="hidden" -->
+
+<!-- Note -->
+An sonnigen Tagen kann durchaus auch diese Situation hier vorkommen:
+
+Vormittags ist der Speicher noch nicht voll geladen (30%), aber die PV-Anlage produziert mehr Strom, als der Speicher laden kann.
+
+Dann geht der Überschuss einfach ins Netz.
 
 
 <!-- .slide: data-background-image="images/energy-dashboard-20230903.png" data-background-size="contain" -->
