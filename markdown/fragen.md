@@ -80,22 +80,22 @@ Was ist mit Genehmigungen, Anzeigen, Förderungen?
 
 
 <!-- .slide: data-timing="1" -->
-## Home Assistant <!-- .element class="hidden" -->
+## Home Assistant <!-- .element class="hidden" -->
 
-Wie betreibst du Home Assistant?
+Wie betreibst du Home Assistant?
 
 <!-- Note -->
 Genau so wie auch Nextcloud, Grocy, und anderes Container-Zeug.
 
 * Raspberry Pi 4 mit Ubuntu Jammy
 * Rootless Podman mit `podman-compose`
-* Offizielles [Docker-Image  für Home Assistant](https://hub.docker.com/r/homeassistant/home-assistant)
+* Offizielles [Docker-Image  für Home Assistant](https://hub.docker.com/r/homeassistant/home-assistant)
 * `loginctl --enable-linger homeassistant`
 * `systemctl --user start podman-compose`
 
 
 <!-- .slide: data-timing="1" -->
-## Home Assistant docker-compose.yaml <!-- .element class="hidden" -->
+## Home Assistant docker-compose.yaml <!-- .element class="hidden" -->
 
 ```yaml
 version: 3
@@ -115,7 +115,7 @@ services:
 
 
 <!-- .slide: data-timing="1" -->
-## Home Assistant systemd unit <!-- .element class="hidden" -->
+## Home Assistant systemd unit <!-- .element class="hidden" -->
 
 ```ini
 [Unit]
