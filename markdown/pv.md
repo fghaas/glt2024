@@ -55,7 +55,7 @@ Unsere PV-Anlage besteht aus 22 Solarmodulen, die jeweils *maximal* 465 Watt Lei
 Der Wechselrichter könnte noch etwa 50% mehr Kapazität liefern, wäre also noch durch zusätzliche Module ausbaufähig.
 
 Der Stromspeicher hat 9.2 kWh *nutzbare* Kapazität, kann aber maximal 5 kW Entladeleistung liefern.
-Auch die Ladeleistung ist begrenzt und liegt bei ca. 5,5kWh.
+Auch die Ladeleistung ist begrenzt und liegt bei ca. 5,5kW.
 
 
 <!-- .slide: data-background-image="images/energy-dashboard-202309.png" data-background-size="contain" -->
