@@ -16,6 +16,8 @@ Ein Erfahrungsbericht aus einem einjährigen Lernprozess über Energie, Sonne, u
 * Wie man sicher bald merkt, sind viele der hier besprochenen Themen regional sehr spezifisch.
 * Aber vielleicht kann man doch das eine oder andere als Inspiration mitnehmen.
 
+Dieser Vortrag ist KI-frei; er enthält ausschließlich biologische menschliche *natürliche* Intelligenz.
+
 ## Lizenz
 
 ![Creative Commons BY-NC-SA logo](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg "Creative Commons BY-NC-SA logo") Diese Präsentation steht unter der [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)-Lizenz.
